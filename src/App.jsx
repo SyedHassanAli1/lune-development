@@ -41,8 +41,9 @@ function App() {
               }}
             />
           </motion.div>
+
           <motion.p
-            className="text-lg md:text-2xl lg:text-3xl text-white/80 max-w-3xl mx-auto mt-4 md:mt-6 leading-relaxed font-light tracking-wide"
+            className="text-center text-lg md:text-2xl lg:text-3xl text-white/80 max-w-3xl mx-auto mt-4 md:mt-6 leading-relaxed font-light tracking-wide"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
